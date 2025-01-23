@@ -1,0 +1,30 @@
+.sessaoDoacao{
+    border: 1px solid red;
+}
+.grupo{
+    border: 1px solid red;display:flex ;
+}
+.blocoInfo{
+    border: 1px solid red;
+}
+.blocoInfo h2{
+    border: 1px solid red;
+}
+.blocoInfo h3{
+    border: 1px solid red;
+}
+.blocoDoacao{
+    border: 1px solid rgb(38, 0, 255);
+    display: flex;
+}
+
+.doar{
+    border: 1px solid red;
+}
+.receber{
+    border: 1px solid red;
+}
+.sessaoDoacao{
+    border: 1px solid red;
+    
+}
