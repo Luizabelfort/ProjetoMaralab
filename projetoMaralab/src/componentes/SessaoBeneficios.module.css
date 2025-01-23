@@ -1,0 +1,29 @@
+.sectionBeneficios{
+    /* border: 1px solid rgb(0, 255, 200); */
+    min-height:calc(100vh - 88px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spanBeneficios{
+    /* border: 1px solid rgb(251, 255, 0); */
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+    font-weight: 600;
+    margin-bottom: 0.875rem;
+
+}
+.h2Beneficios{
+    /* border: 1px solid rgb(51, 255, 0); */
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    margin-bottom: 4rem;
+
+}
+.divBeneficios{
+    width: 78.125rem;
+    /* border: 1px solid rgb(60, 255, 0); */
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,52 @@
+.nav{
+    height: 5.5rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.logoMaralab{
+    margin-left: 2rem;
+}
+
+.listaDaNav{
+    /* border: 1px solid rebeccapurple; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.8rem;
+    padding-left: 8rem;
+}
+
+.listaDaNav a{
+    /* border: 1px solid rebeccapurple; */
+    list-style: none;
+    text-decoration: none;
+}
+
+.itemDaLista {
+    /* border: 1px solid red; */
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.listaDaNav a:visited{
+    color: var(--rosaChoque);
+    background-color: aqua;
+}
+
+.botaoDaNav {
+    border: 1px solid var(--rosaChoque);
+    width: 13rem;
+    height: 2.3rem;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: var(--rosaChoque);
+    margin-right: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}

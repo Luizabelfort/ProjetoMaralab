@@ -1,0 +1,87 @@
+header{
+    /* border: 1px solid rgb(0, 255, 42); */
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    min-height:calc(100vh - 88px);
+
+}
+
+.BlocoCirculoAzVe{
+    /* border: 1px solid red; */
+    width: 13rem;
+    height: 16rem;
+    position: relative;
+    z-index: auto;
+    margin-top: 0.5rem;
+   
+}
+
+.Grupo{
+    /* border: 1px solid rgb(255, 145, 0); */
+    width: 79rem;
+    height: 31.938rem;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-left: 9rem;
+    padding-top: 1.300rem;
+    gap: 4rem;
+}
+
+.foto{
+    /* border: 1px solid red; */
+    width: 33rem;
+    height: auto;
+    
+}
+
+.blocoTexto{
+    /* border: 1px solid rgb(0, 255, 191); */
+    width: 40rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1.5rem;
+}
+
+h1{
+    /* border: 1px solid red; */
+    width: 37rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 110%;
+    color: var(--corFont);
+}
+
+p{
+    /* border: 1px solid red; */
+    width: 37rem;
+    font-size: 1.200rem;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.botaodaHeader{
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid var(--rosaChoque);
+    width: 20rem;
+    height: 3.5rem;
+    color: #ffffff;
+    background-color: var(--rosaChoque);
+    border-radius: 8px;
+
+}
+
+.BlocoCirculoRoxRos{
+    /* border: 1px solid red; */
+    width: 5rem;
+    height: 13rem;
+    display: flex;
+    margin-top: 30rem;
+    
+
+}
