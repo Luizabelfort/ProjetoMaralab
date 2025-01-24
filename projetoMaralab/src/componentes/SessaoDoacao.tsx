@@ -9,8 +9,10 @@ import { BlocoDoacao } from "./BlocoDoacao"
 export function SessaoDoacao(){
     return(
         <section className={style.sessaoDoacao}>
-            <img src={eclipseRoxo} alt="Eclipse Roxo" />
-            <img src={grupoCirculo} alt="" />
+            <div className={style.teste}>
+                <img className={style.eclipseRoxo} src={eclipseRoxo} alt="Eclipse Roxo" />
+                <img className={style.grupoCirculo} src={grupoCirculo} alt="" />
+            </div>
             <div className={style.grupo}>
                 <div className={style.blocoInfo}>
                     <h2>Faça parte da Economia de Compartilhamento!</h2>
@@ -29,7 +31,7 @@ social."
                     <button className={style.doar}>QUERO DOAR</button>
                     <button className={style.receber}>QUERO RECEBER</button>
                 </div>
-                <img src={grupoCirculoImagem} alt="" />
+                <img className={style.rupoCirculoImagem} src={grupoCirculoImagem} alt="" />
             </div>
         </section>
     )
