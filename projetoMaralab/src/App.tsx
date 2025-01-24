@@ -2,6 +2,9 @@ import { Header } from "./componentes/Header";
 import { Nav } from "./componentes/Nav";
 import { SessaoBeneficios } from "./componentes/SessaoBeneficios";
 import { SessaoDoacao } from "./componentes/SessaoDoacao";
+import { SessaoParcerias } from "./componentes/SessaoParcerias";
+import { SessaoRealizacoes } from "./componentes/SessaoRealizacoes";
+import { SessaoSolucoes } from "./componentes/SessaoSolucoes";
 
 export function App() {
 
@@ -11,6 +14,9 @@ export function App() {
       <Header/>
       <SessaoBeneficios/>
       <SessaoDoacao/>
+      <SessaoSolucoes/>
+      <SessaoParcerias/>
+      <SessaoRealizacoes/>
     </div>
   )
 }
