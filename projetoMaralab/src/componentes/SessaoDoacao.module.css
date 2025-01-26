@@ -1,73 +1,73 @@
-.sessaoDoacao{
+.sessaoDoacao {
     border: 1px solid rgb(25, 0, 255);
     height: 47.875rem;
     overflow: hidden;
     position: relative;
 }
 
-.teste{
+.teste {
     border: 2px solid rgb(174, 0, 255);
     display: flex;
-    
+
     position: absolute;
 }
 
-.eclipseRoxo{
+.eclipseRoxo {
     border: 1px solid rgb(111, 0, 255);
     width: 6rem;
     height: 12.813rem;
 }
-.grupoCirculo{
+.grupoCirculo {
     border: 1px solid rgb(111, 0, 255);
     width: 10.063rem;
     height: 7.625rem;
     margin-left: 48rem;
 }
-.grupo{
-    border: 1px solid rgb(0, 217, 255);display:flex ;
+.grupo {
+    border: 1px solid rgb(0, 217, 255);
+    display: flex;
     position: absolute;
     z-index: 1;
     display: flex;
     align-items: center;
     height: 47.875rem;
-    
 }
-.blocoInfo{
+.blocoInfo {
     border: 1px solid rgb(111, 0, 255);
     width: 34.75rem;
     height: 37.875rem;
 }
-.blocoInfo h2{
+.blocoInfo h2 {
     border: 1px solid red;
     font-size: 2.625rem;
     line-height: 3.623rem;
     font-weight: 700;
 }
-.blocoInfo h3{
+.blocoInfo h3 {
     border: 1px solid red;
     font-size: 1.25;
     font-weight: 600;
     line-height: 1.75rem;
 }
-.blocoDoacao{
+.blocoDoacao {
     border: 1px solid rgb(0, 255, 106);
     display: flex;
 }
 
-.doar{
+.doar {
     border: 1px solid red;
     font-size: 1.25rem;
-    font-weight:600 ;
-    line-height:1.25rem ;
+    font-weight: 600;
+    line-height: 1.25rem;
 }
-.receber{
+.receber {
     border: 1px solid red;
-    
+
     font-size: 1.25rem;
-    font-weight:600 ;
-    line-height:1.25rem ;
+    font-weight: 600;
+    line-height: 1.25rem;
 }
-.rupoCirculoImagem{
+.rupoCirculoImagem {
     border: 1px solid red;
     margin-left: 15.6rem;
     width: 34.75rem;
