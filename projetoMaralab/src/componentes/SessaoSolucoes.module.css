@@ -91,7 +91,7 @@
     margin-bottom: 4rem;
 }
 
-button {
+.btnQueroParticipar {
     background-color: var(--rosaChoque);
     border: none;
     color: #ffffff;
@@ -103,6 +103,10 @@ button {
     letter-spacing: 0.0313rem;
     text-align: center;
     border-radius: 0.5rem;
+}
+
+.btnQueroParticipar:hover{
+    background-color:#ff2592;
 }
 
 .fotoSessaoQuatro {

@@ -76,6 +76,10 @@ p{
 
 }
 
+.botaodaHeader:hover{
+    background-color:#ff2592;
+}
+
 .BlocoCirculoRoxRos{
     /* border: 1px solid red; */
     width: 5rem;

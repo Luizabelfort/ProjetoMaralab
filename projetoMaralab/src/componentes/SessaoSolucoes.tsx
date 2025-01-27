@@ -40,7 +40,7 @@ export function SessaoSolucoes(){
                     <div className={style.estrategiasSolucoes2}>
                         <h2 className={style.h2EstrategiasSolucoes}>Soluções estratégicas para professores</h2>
                         <p className={style.pEstrategiasSolucoes}>Plataforma que oferece mentorias em metodologias ágeis, conexões com stakeholders e feedbacks para impulsionar o crescimento da escola. Apoia professores no desenvolvimento de projetos educacionais, da ideia à implementação, com foco na captação de apoiadores e patrocinadores.</p>
-                        <button>QUERO PARTICIPAR</button>
+                        <button className={style.btnQueroParticipar}>QUERO PARTICIPAR</button>
                     </div>
                     <img className={style.fotoSessaoQuatro} src={fotoSessaoQuatro} alt="" />
                 </div>
