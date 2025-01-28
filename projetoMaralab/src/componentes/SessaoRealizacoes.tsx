@@ -1,5 +1,6 @@
 import style from "./SessaoRealizacoes.module.css"
 import fotoGrupo from "../assets/fotoGrupo.png"
+import eclipseRosaopaco from "../assets/eclipseRosaopaco.png"
 export function SessaoRealizacoes(){
     return(
         <section className={style.SessaoRealizacoes}>
@@ -10,6 +11,8 @@ export function SessaoRealizacoes(){
                 </div>
                 <img className={style.fotoGrupo} src={fotoGrupo} alt="" />
             </div>
+
+            <img className={style.eclipseRosaopaco} src={eclipseRosaopaco} alt="" />
         </section>
     )
 }

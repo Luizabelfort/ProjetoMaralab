@@ -5,6 +5,7 @@
     width: auto;
     height: 81.125rem;
     margin-bottom: 6.25rem;
+    margin-top: 4rem;
 }
 
 .fundo {
@@ -26,9 +27,9 @@
 
 .h2ConectarSolucoes {
     /* border: 1px solid rgb(59, 14, 14); */
-    width: 80rem;
+    width: 75rem;
     height: 5.5rem;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 2.75rem;
     font-weight: 700;
     text-align: center;
@@ -73,7 +74,7 @@
     /* border: 1px solid rgb(59, 14, 14); */
     width: 35.4375rem;
     height: 7.25rem;
-    font-size: 2.625rem;
+    font-size: 2.3rem;
     font-weight: 700;
     line-height: 3.6225rem;
     text-align: left;

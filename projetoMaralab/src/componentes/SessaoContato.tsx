@@ -3,11 +3,13 @@ import iconEmail from "../assets/iconEmail.png"
 import iconTelefone from "../assets/iconTelefone.png"
 import iconLocal from "../assets/iconLocal.png"
 import googleMapa from "../assets/googleMapa.png"
+import grupoCirculoRoxRos from "../assets/grupoCirculoRoxRos.png"
 import { Formulario } from "./Formulario"
 
 export function SessaoContato(){
     return(
         <section className={style.SessaoContato}>
+            <img className={style.grupoCirculoRoxRos} src={grupoCirculoRoxRos} alt="" />
             <div className={style.divContato}>
                 <div className={style.blocoInfoCont}>
                     <h2>Contato</h2>
@@ -16,18 +18,18 @@ export function SessaoContato(){
                     <ul className={style.listaCont}>
                         <li>
                         <img src={iconEmail} alt="" />
-                        <span>contact@company.com</span>
+                        <span>contato@maralab.com.br</span>
                         </li>
                         <li>
                         <img src={iconTelefone} alt="" />
-                        <span>(123) 456 - 789</span>
+                        <span>(98) 98122-7391</span>
                         </li>
                         <li>
                         <img src={iconLocal} alt="" />
-                        <span>State Institute of Education, Science and Technology of Maranhao - IEMA</span>
+                        <span>Jardim Eldorado - São Luís/MA</span>
                         </li>
                     </ul>
-                    <a target="_blank" href="https://maps.app.goo.gl/9eDKi1vy6D55c9Pi6">
+                    <a target="_blank" href="https://maps.app.goo.gl/zZxXQtExkYhgZAPo9">
                         <img className={style.googleMapa} src={googleMapa} alt="" />
                     </a>
                 </div>

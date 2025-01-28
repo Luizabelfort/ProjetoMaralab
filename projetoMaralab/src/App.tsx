@@ -1,3 +1,4 @@
+import { Footer } from "./componentes/Footer";
 import { Header } from "./componentes/Header";
 import { Nav } from "./componentes/Nav";
 import { SessaoBeneficios } from "./componentes/SessaoBeneficios";
@@ -19,6 +20,7 @@ export function App() {
       <SessaoParcerias/>
       <SessaoRealizacoes/>
       <SessaoContato/>
+      <Footer/>
     </div>
   )
 }

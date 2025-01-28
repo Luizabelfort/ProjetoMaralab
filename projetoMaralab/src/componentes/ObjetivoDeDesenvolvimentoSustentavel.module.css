@@ -1,9 +1,5 @@
-imagensODS {
-    border: 1px solid black;
+.imagensODS {
     display: flex;
     flex-direction: row;
 }
 
-imagemODS {
-    border: 1px solid black;
-}

@@ -1,0 +1,74 @@
+footer{
+     border: 2px solid var(--azulClaro); 
+    height: 30rem;
+    border-radius:  200px 200px 0 0;
+    border-bottom: none; 
+    display: flex;
+    justify-content: center;
+}
+
+.grupoFoo{
+    /* border: 1px solid rgb(0, 255, 179); */
+    height: 22.6875rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.miniGrupoFoo{
+    /* border: 1px solid rgb(94, 255, 0); */
+    width: 30.8125rem;
+    height: 14.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logoMaralabFoo{
+    /* border: 1px solid rgb(255, 136, 0); */
+    width: 13rem;
+    height: 6.1875rem;
+}
+
+.listaFoo{
+    /* border: 1px solid rgb(255, 136, 0); */
+    display: flex;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.listaFoo li{
+    /* border: 1px solid rgb(255, 136, 0); */
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height:150% ;
+    list-style-type: none
+}
+
+.imgsFoo{
+    /* border: 1px solid rgb(255, 136, 0); */
+    margin-top: 2rem;
+    width: 8.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr{
+    width: 82rem;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: #dddddd;
+    border-radius: 3.125rem;
+    margin-top: 3rem;
+}
+
+.direitosRe{
+    /* border: 1px solid rgb(255, 136, 0); */
+    margin-top: 2.0625rem;
+    font-family: .875rem;
+    font-weight: 400;
+    line-height: 150%;
+}

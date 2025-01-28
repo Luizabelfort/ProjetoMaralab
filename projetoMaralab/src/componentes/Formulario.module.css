@@ -35,6 +35,11 @@ input{
     height: 8.875rem;
     display: flex;
     align-items: flex-start;
+    border: 1px solid var(--roxoEscuro);
+    border-radius: 1.25rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
 }
 
 .enviar{

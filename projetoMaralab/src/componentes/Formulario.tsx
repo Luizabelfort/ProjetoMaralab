@@ -11,8 +11,8 @@ export function Formulario(){
             <input className={style.assunto} type="text"
             placeholder='Assunto'/>
 
-            <input className={style.digitarMensagem} type="text"
-            placeholder='Digite sua mensagem...'/>
+            <textarea className={style.digitarMensagem}
+            placeholder='Digite sua mensagem...'></textarea>
 
             <button className={style.enviar} type="submit">ENVIAR MENSAGEM</button>
         </form>

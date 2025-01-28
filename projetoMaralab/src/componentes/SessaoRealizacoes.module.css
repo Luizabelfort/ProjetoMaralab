@@ -4,9 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
 }
 
 .grupoRealizacoes{
+    position: absolute;
     height: 19.938rem;
     display: flex;
     justify-content: space-between;
@@ -22,7 +26,7 @@
 }
 
 .blocoInfoRealz h2{
-    font-size: 2.625rem;
+    font-size: 2.3rem;
     font-weight: 700;
     line-height: 138%;
     margin-top: 0.8rem;
@@ -36,5 +40,9 @@
     width: 33.938rem;
 }
 
-.fotoGrupo{
+.eclipseRosaopaco{
+    position: absolute;
+    z-index: 1;
+    margin-inline-end: 71.5rem;
+    margin-top: 320px;
 }
