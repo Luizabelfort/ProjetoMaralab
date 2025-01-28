@@ -1,18 +1,17 @@
-.nav{
+.nav {
     height: 5.5rem;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-
 }
 
-.logoMaralab{
+.logoMaralab {
     margin-left: 2rem;
 }
 
-.listaDaNav{
+.listaDaNav {
     /* border: 1px solid rebeccapurple; */
     list-style: none;
     display: flex;
@@ -22,7 +21,7 @@
     padding-left: 8rem;
 }
 
-.listaDaNav a{
+.listaDaNav a {
     /* border: 1px solid rebeccapurple; */
     list-style: none;
     text-decoration: none;
@@ -34,9 +33,12 @@
     font-size: 1rem;
     font-weight: 500;
 }
-.listaDaNav a:visited{
+.listaDaNav a:visited {
+    color: var(--preto);
+}
+
+.listaDaNav a:hover {
     color: var(--rosaChoque);
-    background-color: aqua;
 }
 
 .botaoDaNav {
@@ -49,4 +51,8 @@
     margin-right: 2rem;
     font-size: 0.9rem;
     font-weight: 600;
+}
+
+.botaoDaNav:hover{
+    background-color:#ff2592;
 }

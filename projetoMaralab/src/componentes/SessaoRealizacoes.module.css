@@ -1,5 +1,48 @@
 .SessaoRealizacoes{
-    border: 1px solid rgb(255, 123, 0);
     width: 90rem;
     height: 32.438rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+}
+
+.grupoRealizacoes{
+    position: absolute;
+    height: 19.938rem;
+    display: flex;
+    justify-content: space-between;
+    width: 68.75rem;
+}
+
+.blocoInfoRealz{
+    width: 33.938rem;
+    height: 19.938rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blocoInfoRealz h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 138%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.blocoInfoRealz p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 140%;
+    width: 33.938rem;
+}
+
+.eclipseRosaopaco{
+    position: absolute;
+    z-index: 1;
+    margin-inline-end: 71.5rem;
+    margin-top: 320px;
 }

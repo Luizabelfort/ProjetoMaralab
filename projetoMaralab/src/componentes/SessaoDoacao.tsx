@@ -28,10 +28,12 @@ social."
                         texto="Cadastre sua escola ou organização e mude a realidade de toda uma comunidade!"
                         />
                     </div>
-                    <button className={style.doar}>QUERO DOAR</button>
-                    <button className={style.receber}>QUERO RECEBER</button>
+                    <div className={style.btnDoarReceber}>
+                        <button className={style.doar}>QUERO DOAR</button>
+                        <button className={style.receber}>QUERO RECEBER</button>
+                    </div>
                 </div>
-                <img className={style.rupoCirculoImagem} src={grupoCirculoImagem} alt="" />
+                <img className={style.grupoCirculoImagem} src={grupoCirculoImagem} alt="" />
             </div>
         </section>
     )

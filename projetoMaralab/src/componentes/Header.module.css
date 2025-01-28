@@ -4,6 +4,7 @@ header{
     box-sizing: border-box;
     justify-content: space-between;
     min-height:calc(100vh - 88px);
+    
 
 }
 
@@ -74,6 +75,10 @@ p{
     background-color: var(--rosaChoque);
     border-radius: 8px;
 
+}
+
+.botaodaHeader:hover{
+    background-color:#ff2592;
 }
 
 .BlocoCirculoRoxRos{

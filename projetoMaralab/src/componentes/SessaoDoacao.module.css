@@ -1,75 +1,97 @@
 .sessaoDoacao{
-    border: 1px solid rgb(25, 0, 255);
-    height: 47.875rem;
+    height: 55rem;
     overflow: hidden;
     position: relative;
 }
 
 .teste{
-    border: 2px solid rgb(174, 0, 255);
     display: flex;
-    
     position: absolute;
 }
 
 .eclipseRoxo{
-    border: 1px solid rgb(111, 0, 255);
     width: 6rem;
     height: 12.813rem;
 }
 .grupoCirculo{
-    border: 1px solid rgb(111, 0, 255);
     width: 10.063rem;
     height: 7.625rem;
     margin-left: 48rem;
 }
 .grupo{
-    border: 1px solid rgb(0, 217, 255);display:flex ;
+    display:flex ;
     position: absolute;
     z-index: 1;
-    display: flex;
-    align-items: center;
-    height: 47.875rem;
+    height: 49.875rem;
+    margin-top: 8.5rem;
+    padding-left:8rem;
+    gap: 6em;
     
 }
 .blocoInfo{
-    border: 1px solid rgb(111, 0, 255);
     width: 34.75rem;
-    height: 37.875rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+    
+
 }
 .blocoInfo h2{
-    border: 1px solid red;
-    font-size: 2.625rem;
-    line-height: 3.623rem;
+    font-size: 2.425rem;
+    line-height: 3.65rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 .blocoInfo h3{
-    border: 1px solid red;
-    font-size: 1.25;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.75rem;
+    margin-bottom: 3rem;
 }
 .blocoDoacao{
-    border: 1px solid rgb(0, 255, 106);
     display: flex;
+    gap: 1.5rem;
 }
 
 .doar{
-    border: 1px solid red;
+    
+    border: 1px solid var(--rosaChoque);
     font-size: 1.25rem;
     font-weight:600 ;
     line-height:1.25rem ;
+    width: 15rem;
+    height: 2.9rem;
+    margin-right: 1.5rem;
+    background-color: var(--rosaChoque);
+    color:#fff;
+    border-radius: 0.5rem;
 }
 .receber{
-    border: 1px solid red;
-    
+    border: 2px solid var(--rosaChoque);
     font-size: 1.25rem;
     font-weight:600 ;
     line-height:1.25rem ;
+    width: 15rem;
+    height: 3rem;
+    background-color: #fff;
+    color: var(--rosaChoque);
+    border-radius: 0.5rem;
+
 }
-.rupoCirculoImagem{
-    border: 1px solid red;
-    margin-left: 15.6rem;
+
+.doar:hover{
+    background-color:#ff2592;
+}
+
+.receber:hover{
+    background-color:#ffe9f4;
+}
+.btnDoarReceber{
     width: 34.75rem;
-    height: auto;
+    
+}
+.grupoCirculoImagem{
+    margin-top: 3rem;
+    height: 40rem
 }
