@@ -1,4 +1,4 @@
-.SessaoRealizacoes{
+.SessaoRealizacoes {
     width: 90rem;
     height: 32.438rem;
     display: flex;
@@ -9,7 +9,7 @@
     flex-direction: column;
 }
 
-.grupoRealizacoes{
+.grupoRealizacoes {
     position: absolute;
     height: 19.938rem;
     display: flex;
@@ -17,7 +17,7 @@
     width: 68.75rem;
 }
 
-.blocoInfoRealz{
+.blocoInfoRealz {
     width: 33.938rem;
     height: 19.938rem;
     display: flex;
@@ -25,7 +25,7 @@
     justify-content: center;
 }
 
-.blocoInfoRealz h2{
+.blocoInfoRealz h2 {
     font-size: 2.3rem;
     font-weight: 700;
     line-height: 138%;
@@ -33,14 +33,14 @@
     margin-bottom: 1rem;
 }
 
-.blocoInfoRealz p{
+.blocoInfoRealz p {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 140%;
     width: 33.938rem;
 }
 
-.eclipseRosaopaco{
+.eclipseRosaopaco {
     position: absolute;
     z-index: 1;
     margin-inline-end: 71.5rem;

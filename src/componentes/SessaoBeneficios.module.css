@@ -1,28 +1,25 @@
-.sectionBeneficios{
+.sectionBeneficios {
     margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.spanBeneficios{
+.spanBeneficios {
     /* border: 1px solid rgb(251, 255, 0); */
     font-size: 1.25rem;
     line-height: 1.375rem;
     font-weight: 600;
     margin-bottom: 0.875rem;
-
 }
-.h2Beneficios{
+.h2Beneficios {
     /* border: 1px solid rgb(51, 255, 0); */
     font-size: 2.3rem;
     font-weight: 600;
     line-height: 2.75rem;
     margin-bottom: 4rem;
-    
-
 }
-.divBeneficios{
+.divBeneficios {
     width: 78.125rem;
     /* border: 1px solid rgb(60, 255, 0); */
     display: flex;
