@@ -1,0 +1,15 @@
+.WhatsappButton{
+    background-color: var(--rosaChoque);
+    color: #fff;
+    border: 1px splid var(--rosaChoque);
+    padding: .625rem 1.25rem;
+    border-radius: .3125rem;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.LInkWhats{
+ color: #fff;
+ text-decoration: none;
+}

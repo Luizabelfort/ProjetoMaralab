@@ -8,7 +8,7 @@ import { Formulario } from "./Formulario"
 
 export function SessaoContato(){
     return(
-        <section className={style.SessaoContato}>
+        <section id="Contato" className={style.SessaoContato}>
             <img className={style.grupoCirculoRoxRos} src={grupoCirculoRoxRos} alt="" />
             <div className={style.divContato}>
                 <div className={style.blocoInfoCont}>

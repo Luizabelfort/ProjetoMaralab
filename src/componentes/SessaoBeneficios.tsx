@@ -7,7 +7,7 @@ import Folha from "../assets/iconFolha.png"
 
 export function SessaoBeneficios(){
     return(
-    <section className={style.sectionBeneficios}>
+    <section  id="beneficios" className={style.sectionBeneficios}>
         <span className={style.spanBeneficios}>Descomplicando a Educação!</span>
         <h2 className={style.h2Beneficios}>Toda gestão de Laboratórios Educacionais em um só lugar.</h2>
         <div className={style.divBeneficios}>

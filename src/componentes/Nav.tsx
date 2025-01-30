@@ -9,19 +9,19 @@ export function Nav(){
             </div>
             <ul className={style.listaDaNav}>
                 <li className={style.itemDaLista}>
-                    <a href="#">Início</a>
+                    <a href='#Header'>Início</a>
                 </li>
                 <li className={style.itemDaLista}>
-                    <a href="#">Sobre Nós</a>
+                    <a href="#beneficios">Sobre Nós</a>
                 </li>
                 <li className={style.itemDaLista}>
-                    <a href="#">Soluções</a>
+                    <a href="#Solucoes">Soluções</a>
                 </li>
                 <li className={style.itemDaLista}>
-                    <a href="#">Parceiros</a>
+                    <a href="#parcerias">Parceiros</a>
                 </li>
                 <li className={style.itemDaLista}>
-                    <a href="#">Contato</a>
+                    <a href="#Contato">Contato</a>
                 </li>
             </ul>
             <button className={style.botaoDaNav}>ÁREA DO CLIENTE</button>

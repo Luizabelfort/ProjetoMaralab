@@ -42,17 +42,3 @@ input{
     padding-top: 1rem;
 }
 
-.enviar{
-    border: 1px solid rgb(255, 0, 200);
-    color: #fff;
-    background-color: var(--rosaChoque);
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height:100% ;
-    width: 19.625rem;
-    height: 3.5rem;
-    border-radius: .5rem;
-    margin-top: .875rem;
-    margin-left: 6.9269rem;
-
-}
