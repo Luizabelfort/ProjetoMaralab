@@ -5,7 +5,7 @@ import logoNats from "../assets/logoNats.png"
 
 export function SessaoParcerias(){
     return(
-        <section className={style.SessaoParcerias}>
+        <section id="parcerias" className={style.SessaoParcerias}>
             <div className={style.grupoParcerias}>
                 <h2>Parceiros & Apoiadores</h2>
                 <div className={style.grupoPArcIMg}>

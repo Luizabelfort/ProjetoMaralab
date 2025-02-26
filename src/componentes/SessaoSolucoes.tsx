@@ -10,7 +10,7 @@ import fotoSessaoQuatro from "../assets/fotoSessaoQuatro.png"
 
 export function SessaoSolucoes(){
     return(
-        <section className={style.SessaoSolucoes}>
+        <section id="Solucoes" className={style.SessaoSolucoes}>
             <div className={style.fundo}>
                 <div className={style.conectarSolucoes}>
                     <h2 className={style.h2ConectarSolucoes}>Conectamos soluções e experiências inovadoras ao ecossistema educacional.</h2>

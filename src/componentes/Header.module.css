@@ -4,6 +4,8 @@ header {
     box-sizing: border-box;
     justify-content: space-between;
     min-height: calc(100vh - 88px);
+    min-height:calc(100vh - 88px);
+
 }
 
 .BlocoCirculoAzVe {

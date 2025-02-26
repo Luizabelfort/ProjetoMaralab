@@ -5,7 +5,7 @@ import BlocoCirculoRoxRos from "../assets/BlocoCirculoRoxRos.png"
 
 export function Header(){
     return(
-    <header>
+    <header id='Header'>
         <img className={style.BlocoCirculoAzVe} src={BlocoCirculoAzVe} alt="" />
         <div className={style.Grupo}>
         <img className={style.foto} src={foto}alt="" />

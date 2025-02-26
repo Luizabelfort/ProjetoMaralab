@@ -8,6 +8,7 @@ import { SessaoParcerias } from "./componentes/SessaoParcerias";
 import { SessaoRealizacoes } from "./componentes/SessaoRealizacoes";
 import { SessaoSolucoes } from "./componentes/SessaoSolucoes";
 
+
 export function App() {
 
   return (
