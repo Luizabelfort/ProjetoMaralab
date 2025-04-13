@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+#🎈 :Landing page para Marlab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="" width="90%">
 
-Currently, two official plugins are available:
+[Sobre](#hippopotamus-sobre) • [Demonstração](#desktop_computer-demonstração) • [Desenvolvido com](#rocket-desenvolvido-com)
+ • [Protótipo](#jigsaw-protótipo) • [Como executar](#bulb-como-executar) • [Autoras](#star-autora)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## Expanding the ESLint configuration
+### 💾: Sobre
+Landing page desenvolvida para a startup Maralab, com foco em performance e usabilidade. Projeto construído com as melhores práticas de desenvolvimento web.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+### :desktop_computer: Demonstração
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Atráves [deste link](https://luizabelfort.github.io/Desafio3--Front-End--Incod/) é possível acessar a página de demonstração do projeto no GitHub Pages.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### :rocket: Desenvolvido com
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+O Projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas
+
+- VSCode
+- typescript
+- CSS
+- html
+- react
+
+---
+
+### :jigsaw: Protótipo
+
+O protótipo da interface foi criado pela designer Ana Clara ( https://www.linkedin.com/in/ana-oliver-1937792b7/ )
+(https://www.figma.com/design/z5rPvv8LculrqbrrVcIA3E/maralab?node-id=13-91&p=f).
+
+---
+
+### :round_pushpin: Como executar
+
+Para visualizar o projeto localmente, basta clonar este repositório e abrir o arquivo [index.html](../index.html) em seu navegador.
+
+---
+
+
+### : Autoras
+
+<table>
+  <tr>
+       <td align="center">
+      <a href="https://github.com/luizabelfort" title="defina o titulo do link">
+        <img src="https://avatars.githubusercontent.com/u/168024960?v=4" width="100px;" alt="author profile picture"/><br>
+        <sub>
+          <b>Luiza Belfort</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/mariaburkhardt" title="defina o titulo do link">
+        <img src="https://avatars.githubusercontent.com/u/101136900?v=4" width="100px;" alt="author profile picture"/><br>
+        <sub>
+          <b>Maria Burkhardt</b>
+        </sub>
+      </a>
+    </td>
+
+  </tr>
+</table>
+
+---
