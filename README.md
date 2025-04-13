@@ -1,7 +1,7 @@
 #🎈 :Landing page para Marlab
 
 <div align="center">
-  <img src="" width="90%">
+  <img src="./src/assets/Captura de tela 2025-04-12 210816.png" width="90%">
 
 [Sobre](#hippopotamus-sobre) • [Demonstração](#desktop_computer-demonstração) • [Desenvolvido com](#rocket-desenvolvido-com)
  • [Protótipo](#jigsaw-protótipo) • [Como executar](#bulb-como-executar) • [Autoras](#star-autora)
