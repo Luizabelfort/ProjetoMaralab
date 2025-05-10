@@ -1,96 +1,90 @@
-.sessaoDoacao{
+.sessaoDoacao {
     height: 55rem;
     overflow: hidden;
 }
 
-.teste{
+.teste {
     display: flex;
     position: absolute;
 }
 
-.eclipseRoxo{
+.eclipseRoxo {
     width: 6rem;
     height: 12.813rem;
 }
-.grupoCirculo{
+.grupoCirculo {
     width: 10.063rem;
     height: 7.625rem;
     margin-left: 48rem;
 }
-.grupo{
-    display:flex ;
+.grupo {
+    display: flex;
     position: absolute;
     z-index: 1;
     height: 49.875rem;
     margin-top: 8.5rem;
-    padding-left:8rem;
+    padding-left: 8rem;
     gap: 6em;
-    
 }
-.blocoInfo{
+.blocoInfo {
     width: 34.75rem;
     height: 35rem;
     display: flex;
     flex-direction: column;
     margin-top: 3.5rem;
-    
-
 }
-.blocoInfo h2{
+.blocoInfo h2 {
     font-size: 2.425rem;
     line-height: 3.65rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
-.blocoInfo h3{
+.blocoInfo h3 {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.75rem;
     margin-bottom: 3rem;
 }
-.blocoDoacao{
+.blocoDoacao {
     display: flex;
     gap: 1.5rem;
 }
 
-.doar{
-    
+.doar {
     border: 1px solid var(--rosaChoque);
     font-size: 1.25rem;
-    font-weight:600 ;
-    line-height:1.25rem ;
+    font-weight: 600;
+    line-height: 1.25rem;
     width: 15rem;
     height: 2.9rem;
     margin-right: 1.5rem;
     background-color: var(--rosaChoque);
-    color:#fff;
+    color: #fff;
     border-radius: 0.5rem;
 }
-.receber{
+.receber {
     border: 2px solid var(--rosaChoque);
     font-size: 1.25rem;
-    font-weight:600 ;
-    line-height:1.25rem ;
+    font-weight: 600;
+    line-height: 1.25rem;
     width: 15rem;
     height: 3rem;
     background-color: #fff;
     color: var(--rosaChoque);
     border-radius: 0.5rem;
-
 }
 
-.doar:hover{
-    background-color:#ff2592;
+.doar:hover {
+    background-color: #ff2592;
 }
 
-.receber:hover{
-    background-color:#ffe9f4;
+.receber:hover {
+    background-color: #ffe9f4;
 }
-.btnDoarReceber{
+.btnDoarReceber {
     width: 34.75rem;
-    
 }
-.grupoCirculoImagem{
+.grupoCirculoImagem {
     margin-top: 3rem;
-    height: 40rem
+    height: 40rem;
 }

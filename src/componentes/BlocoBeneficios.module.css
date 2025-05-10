@@ -1,4 +1,4 @@
-.bloco{
+.bloco {
     /* border: 1px solid red; */
     width: 16.5rem;
     height: auto;
@@ -7,22 +7,23 @@
     align-items: center;
     gap: 1rem;
 }
-.imagemBloco{
+
+.imagemBloco {
     /* border: 1px solid red; */
     width: 3.375rem;
     height: 3.375rem;
-
-    
 }
-.blocoH3{
+
+.blocoH3 {
     /* border: 1px solid red; */
     line-height: 1.75rem;
     font-weight: 600;
     font-size: 1.25rem;
-    
+
     text-align: center;
 }
-.blocoP{
+
+.blocoP {
     /* border: 1px solid red; */
     font-size: 0.9rem;
     line-height: 1.4rem;

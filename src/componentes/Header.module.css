@@ -1,23 +1,23 @@
-header{
+header {
     /* border: 1px solid rgb(0, 255, 42); */
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
+    min-height: calc(100vh - 88px);
     min-height:calc(100vh - 88px);
 
 }
 
-.BlocoCirculoAzVe{
+.BlocoCirculoAzVe {
     /* border: 1px solid red; */
     width: 13rem;
     height: 16rem;
     position: relative;
     z-index: auto;
     margin-top: 0.5rem;
-   
 }
 
-.Grupo{
+.Grupo {
     /* border: 1px solid rgb(255, 145, 0); */
     width: 79rem;
     height: 31.938rem;
@@ -26,18 +26,17 @@ header{
     justify-content: space-around;
     align-items: flex-end;
     padding-left: 9rem;
-    padding-top: 1.300rem;
+    padding-top: 1.3rem;
     gap: 4rem;
 }
 
-.foto{
+.foto {
     /* border: 1px solid red; */
     width: 33rem;
     height: auto;
-    
 }
 
-.blocoTexto{
+.blocoTexto {
     /* border: 1px solid rgb(0, 255, 191); */
     width: 40rem;
     height: auto;
@@ -47,7 +46,7 @@ header{
     gap: 1.5rem;
 }
 
-h1{
+h1 {
     /* border: 1px solid red; */
     width: 37rem;
     font-size: 3rem;
@@ -56,15 +55,15 @@ h1{
     color: var(--corFont);
 }
 
-p{
+p {
     /* border: 1px solid red; */
     width: 37rem;
-    font-size: 1.200rem;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 140%;
 }
 
-.botaodaHeader{
+.botaodaHeader {
     font-size: 20px;
     font-weight: 500;
     border: 1px solid var(--rosaChoque);
@@ -73,19 +72,16 @@ p{
     color: #ffffff;
     background-color: var(--rosaChoque);
     border-radius: 8px;
-
 }
 
-.botaodaHeader:hover{
-    background-color:#ff2592;
+.botaodaHeader:hover {
+    background-color: #ff2592;
 }
 
-.BlocoCirculoRoxRos{
+.BlocoCirculoRoxRos {
     /* border: 1px solid red; */
     width: 5rem;
     height: 13rem;
     display: flex;
     margin-top: 30rem;
-    
-
 }

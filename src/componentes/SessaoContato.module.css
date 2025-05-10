@@ -1,18 +1,18 @@
-.SessaoContato{
+.SessaoContato {
     height: 52.813rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.grupoCirculoRoxRos{
+.grupoCirculoRoxRos {
     position: absolute;
     z-index: 1;
     margin-inline-start: 86.5rem;
     margin-bottom: 33rem;
 }
 
-.divContato{
+.divContato {
     position: absolute;
     z-index: 2;
     display: flex;
@@ -22,57 +22,55 @@
     align-items: center;
 }
 
-.blocoInfoCont{ 
+.blocoInfoCont {
     width: 31.386rem;
 }
 
-.blocoInfoCont h2{
-    font-size:  2.375rem ;
+.blocoInfoCont h2 {
+    font-size: 2.375rem;
     font-weight: 700;
     line-height: 3.125rem;
     margin-bottom: 1rem;
 }
 
-.pCont{
+.pCont {
     /* border: 1px solid rgb(0, 238, 255); */
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.875rem;
     width: 31.386rem;
     margin-bottom: 3rem;
-
 }
 
-.listaCont{
+.listaCont {
     /* border: 1px solid rgb(0, 102, 255); */
     margin-bottom: 2.5rem;
     width: 16.438rem;
     height: 9.25rem;
 }
 
-.listaCont li{
+.listaCont li {
     /* border: 1px solid red; */
     display: flex;
     align-items: flex-start;
-    
 }
 
-.listaCont li:nth-child(-n+2){
+.listaCont li:nth-child(-n + 2) {
     margin-bottom: 1.5rem;
 }
 
-.listaCont li span{
+.listaCont li span {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.125rem;
 }
 
-.googleMapa{
+.googleMapa {
     border-radius: 15px;
     box-shadow: 0px 4px 21.9px 0px #00000040;
 }
 
-.maeForm{
+.maeForm {
     width: 38.5rem;
     height: 32.75rem;
     border-radius: 25px;
@@ -81,5 +79,4 @@
     align-items: center;
     justify-content: center;
     background-color: #fff;
-
 }
